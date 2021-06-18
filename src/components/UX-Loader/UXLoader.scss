@@ -1,0 +1,44 @@
+.loaderWrapper {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+}
+.loader {
+    background-color: #ec0c8c;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.loader:before {
+    content: "";
+    position: absolute;
+    left: -3.0em;
+    background-color: #fff202;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.loader:after {
+    content: "";
+    position: absolute;
+    left: 3.0em;
+    background-color: #00aeef;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.fullPageOverlay {
+    background: radial-gradient(rgba(20, 20, 20, 0.8), rgba(0, 0, 0, 0.8));
+    position: fixed;
+    z-index: 999;
+    height: 100%;
+    width: 100%;
+    overflow: show;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}

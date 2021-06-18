@@ -1,0 +1,55 @@
+{
+    "productData": {
+        "tableHeader": [
+            "Image",
+            "Name",
+            "Description",
+            "Price",
+            "Action"
+        ],
+        "tableBody": [
+            {
+                "name": "Shirt",
+                "description": "shirt for men",
+                "price": "999",
+                "quantity": "20",
+                "image": "shirt"
+            },
+            {
+                "name": "Nike Jordan",
+                "description": "Nike Shoes",
+                "price": "5999",
+                "quantity": "13",
+                "image": "shoe"
+            },
+            {
+                "name": "Apple Watch",
+                "description": "Latest edition apple watch black",
+                "price": "40000",
+                "quantity": "6",
+                "image": "appleWatch"
+            },
+            {
+                "name": "T-Shirt",
+                "description": "T-Shirt for men",
+                "price": "599",
+                "quantity": "39",
+                "image": "tshirt"
+            },
+            {
+                "name": "IPad",
+                "description": "New M1 Chip IPad pro",
+                "price": "70000",
+                "quantity": "2",
+                "image": "ipad"
+            },
+            {
+                "name": "Jeans",
+                "description": "Jeans for men",
+                "price": "2999",
+                "quantity": "30",
+                "image": "jeans"
+            }
+        ]
+    }
+}

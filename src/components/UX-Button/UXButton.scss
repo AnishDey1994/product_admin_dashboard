@@ -1,0 +1,63 @@
+.btn {
+    display: inline-block;
+    width: inherit;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+        box-shadow 0.15s ease-in-out;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.btn-secondary {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+.btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+.btn-warning {
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+.btn-clean {
+    color: black;
+    background-color: transparent !important;
+    border-color: #007bff !important;
+}
+.adminDashboardBtn1 {
+    width: 80%;
+    height: 40px;
+}
+.adminDashboardBtn2 {
+    width: 50%;
+}
+//for tablet
+@media screen and (min-device-width: 481px) and (max-device-width: 1023px) {
+}
+//for mobile
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) and (-webkit-min-device-pixel-ratio: 2) {
+    .adminDashboardBtn1{
+        width: 100px;
+    }
+}

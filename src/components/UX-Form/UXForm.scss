@@ -1,0 +1,27 @@
+.uxForm {
+    text-align: center;
+}
+.actionBlock {
+    display: flex;
+    flex-direction: row;
+    & .actionLeft {
+        flex: 1;
+    }
+    & .actionRight {
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+        & .btnBlock {
+            flex: 1;
+        }
+    }
+}
+//for tablet
+@media screen and (min-device-width: 481px) and (max-device-width: 1023px) {
+}
+//for mobile
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) and (-webkit-min-device-pixel-ratio: 2) {
+    .btnBlock{
+        margin: 5px;
+    }
+}

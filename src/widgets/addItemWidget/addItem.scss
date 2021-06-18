@@ -1,0 +1,12 @@
+.progressAction {
+    min-width: 60px;
+    & p {
+        margin-left: 20px;
+    }
+    & #successMsg {
+        color: green;
+    }
+    & #errorMsg {
+        color: red;
+    }
+}

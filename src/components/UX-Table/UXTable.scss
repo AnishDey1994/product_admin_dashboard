@@ -1,0 +1,40 @@
+.thumbnail {
+    width: 80px;
+    height: 100px;
+}
+.tdItem {
+    vertical-align: middle !important;
+}
+#tdTitle {
+    width: 20%;
+}
+#tdDescription {
+    width: 35%;
+}
+#tdPrice {
+    width: 10%;
+}
+#tdImg {
+    width: 15%;
+}
+#tdAction {
+    width: 20%;
+}
+.actionIcon {
+    display: none;
+}
+//for tablet
+@media screen and (min-device-width: 481px) and (max-device-width: 1023px) {
+}
+//for mobile
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) and (-webkit-min-device-pixel-ratio: 2) {
+    #tdAction .adminDashboardBtn2 {
+        display: none;
+    }
+    #tdAction .adminDashboardBtn2 {
+        display: none;
+    }
+    #tdAction .actionIcon {
+        display: inline-block;
+    }
+}

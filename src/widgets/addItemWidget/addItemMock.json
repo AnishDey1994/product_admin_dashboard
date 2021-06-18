@@ -1,0 +1,52 @@
+{
+    "addItemInputArray": [
+        {
+            "name": "Title",
+            "type": "text",
+            "validation": {
+                "schema": [
+                    "required",
+                    "isString"
+                ]
+            }
+        },
+        {
+            "name": "Description",
+            "type": "textArea",
+            "validation": {
+                "schema": [
+                    "required"
+                ]
+            }
+        },
+        {
+            "name": "Price",
+            "type": "number",
+            "validation": {
+                "schema": [
+                    "required",
+                    "isNumber"
+                ]
+            }
+        },
+        {
+            "name": "Image",
+            "type": "file",
+            "validation": {
+                "schema": [
+                    "required"
+                ]
+            }
+        }
+    ],
+    "controlArray": [
+        {
+            "name": "Add",
+            "type": "submit"
+        },
+        {
+            "name": "Cancel",
+            "type": "button"
+        }
+    ]
+}
