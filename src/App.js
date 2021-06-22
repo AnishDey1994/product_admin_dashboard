@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="dashboardWrapper">
       <Switch>
-        <Route exact path='/' component={props => <AdminDashboard {...props} />} />
+        <Route exact path='/product_admin_dashboard' component={props => <AdminDashboard {...props} />} />
         <Route exact={true} path='*' component={() => <NotFound />} />
       </Switch>
     </div>
